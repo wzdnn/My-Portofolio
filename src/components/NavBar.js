@@ -36,7 +36,6 @@ const NavBar = () => {
         <CustomLink href="/" title="home" className="mr-4" />
         <CustomLink href="/about" title="about" className="mx-4" />
         <CustomLink href="/projects" title="projects" className="mx-4" />
-        <CustomLink href="/articles" title="articles" className="ml-4" />
       </nav>
 
       <nav className="flex items-center justify-center flex-wrap-reverse">
