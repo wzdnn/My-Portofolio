@@ -5,7 +5,9 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import project1 from "../../public/images/projects/zwitter.png";
+import project2 from "../../public/images/projects/pengelolaan surat.png";
+import project3 from "../../public/images/projects/arsip surat.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -127,31 +129,29 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12 ">
               <FeaturedProject
-                title="Crypto Screener Application"
+                title="Twitter Clone using NextJS"
                 img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                local currency."
-                link="/"
-                github="/"
+                summary="Twitter app clone using TypeScript, React.JS and Next JS framework for making this project, also I'm using NextAuth, Prisma, MongoDB, Taillwind CSS. And deploying the project in vercel.."
+                link="https://zwitter-dogge.vercel.app/"
+                github="https://github.com/wzdnn/zidan-twitter-clone"
                 type="Feature Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
-                img={project1}
-                link="/"
-                github="/"
+                title="Document Archive Application at Muhammadiyah Al-Mujahidin High School"
+                img={project2}
+                link="https://github.com/wzdnn/Al-Mujahidin-Repo"
+                github="https://github.com/wzdnn/Al-Mujahidin-Repo"
                 type="Feature Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
-                img={project1}
-                link="/"
-                github="/"
+                title="Document Archive Classification System by Applying the K-Nearest Neighbor Algorithm"
+                img={project3}
+                link="https://github.com/wzdnn/Skripsi-Klasifikasi-KNN-Final"
+                github="https://github.com/wzdnn/Skripsi-Klasifikasi-KNN-Final"
                 type="Feature Project"
               />
             </div>

@@ -101,7 +101,7 @@ const NavBar = () => {
 
         <nav className="flex items-center justify-center flex-wrap">
           <motion.a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/zidan-zulkhairyan-mandalim-779125255/"
             target={"_blank"}
             whileHover={{ y: -3 }}
             whileTap={{ scale: 0.9 }}
@@ -110,7 +110,7 @@ const NavBar = () => {
             <LinkedInIcon />
           </motion.a>
           <motion.a
-            href="https://github.com"
+            href="https://github.com/wzdnn"
             target={"_blank"}
             whileHover={{ y: -3 }}
             whileTap={{ scale: 0.9 }}
@@ -150,7 +150,7 @@ const NavBar = () => {
 
           <nav className="flex items-center justify-center flex-wrap mt-2">
             <motion.a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/zidan-zulkhairyan-mandalim-779125255/"
               target={"_blank"}
               whileHover={{ y: -3 }}
               whileTap={{ scale: 0.9 }}
@@ -159,7 +159,7 @@ const NavBar = () => {
               <LinkedInIcon />
             </motion.a>
             <motion.a
-              href="https://github.com"
+              href="https://github.com/wzdnn"
               target={"_blank"}
               whileHover={{ y: -3 }}
               whileTap={{ scale: 0.9 }}

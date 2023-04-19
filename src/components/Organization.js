@@ -34,7 +34,7 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
   );
 };
 
-const Experience = () => {
+const Organization = () => {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -43,7 +43,7 @@ const Experience = () => {
   return (
     <div className="my-64">
       <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16 text-backg">
-        Experience
+        Organization
       </h2>
 
       <div ref={ref} className="w-[75%] mx-auto relative lg:w-[90%] md:w-full">
@@ -54,37 +54,24 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2 ">
           <Details
-            position="Student Employment"
-            company="Ahmad Dahlan University Bureau of Student and Alumni Affairs"
-            companyLink="https://bimawa.uad.ac.id/"
-            time="sep 2020 - jan 2023"
+            position="Member of Department of Networks and Propaganda"
+            company="Ikatan Pelajar Riau Yogyakarta Komisariat Kota Pekanbaru"
+            companyLink=""
+            time="jun 2022 - jan 2023"
             address="Yogyakarta, D.I. Yogyakarta"
-            work="As an technician in the field of communication and network,
-            Examine and correcting documents submitted by students,
-            Ensuring editorial and grammar in letters and documents submitted by students,
-            Helping the buraeu’s online activities during pandemic"
-          />
-
-          <Details
-            position="Front-End Developer"
-            company="Al-Mujahidin Highschool"
-            companyLink="https://www.smamalmujahidin.sch.id/"
-            time="jun 2021 - aug 2021"
-            address="Wonosari, D.I. Yogyakarta"
-            work="Slicing prototype to PHP, HTML and CSS using visual studio code, 
-            Optimization the website for better user experience
+            work="Making poster for organizational event
+            Making identification card for the organizational event Taking pictures during the organizational event Managing the organization's social media accounts
             "
           />
 
           <Details
-            position="Web Developer"
-            company="Ahmad Dahlan University Faculty of Industrial Technology"
-            companyLink="https://www.google.com/"
-            time="nov 2020 - mar 2021"
+            position="Member of Sie PDD"
+            company="Pekan Olahraga Teknik Informatika 2019"
+            companyLink=""
+            time="aug 2019 - nov 2019"
             address="Yogyakarta, D.I. Yogyakarta"
-            work="Making prototype design for the project using Adobe XD,
-            Making simple web design using PHP, HTML and CSS, 
-            Connecting the code to MySQL database using visual studio 
+            work="Making Poster for Event
+            Making Identification Card for the Event Taking Pictures During the Event
             "
           />
         </ul>
@@ -93,4 +80,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Organization;

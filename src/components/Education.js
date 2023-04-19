@@ -50,7 +50,7 @@ const Education = () => {
             type="Bachelor Of Computer"
             time="2018-2023"
             place="Ahmad Dahlan University (UAD)"
-            info="Relevant courses included Data Structures and Algorithms, Data Scientist, Computer Systems Engineering, and Artificial 
+            info="Relevant courses included Data Structures and Algorithms, Data Science, Computer Systems Engineering, and Artificial 
             Intelligence."
           />
         </ul>

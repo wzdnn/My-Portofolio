@@ -44,11 +44,12 @@ export default function Home() {
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs lg:text-left md:text-left sm:text-left">
                 As a junior front end developer, I really like to learn new
                 things and am very interested in the front end world, where I
-                can turn ideas into innovative web applications.
+                can turn ideas into innovative web applications. Showcasing my
+                expertise in React.Js, web development, python.
               </p>
               <div className="flex items-center self-start mt-2 ">
                 <Link
-                  href="/dummy.pdf"
+                  href="/Resume-Zidan Zulkhairyan Mandalim.pdf"
                   target={"_blank"}
                   className="flex items-center bg-primary text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-backg hover:text-primary
                   border-2 border-solid border-transparent hover:border-back md:p-2 md:px-4 md:text-base

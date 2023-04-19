@@ -8,6 +8,7 @@ import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
+import Organization from "@/components/Organization";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const AnimatedNumbers = ({ value }) => {
@@ -56,10 +57,10 @@ const about = () => {
               <p className="font-medium text-paragraph">
                 Hi, my name is Zidan Zulkhairyan Mandalim, but you can call me
                 Zidan, born on February 27, 2000, in Pekanbaru, Riau, Indonesia.
-                I am a front end developer as well as an illustrator with a
-                passion for creating beautiful, functional, and user-centered
-                digital experiences and illustration, in 2023 i graduated from
-                Ahmad Dahlan University majoring in Informatics Engineering.
+                I am a front end developer with a passion for creating
+                beautiful, functional, and user-centered digital experiences, in
+                2023 i graduated from Ahmad Dahlan University majoring in
+                Informatics Engineering.
               </p>
               <p className="my-4 font-medium text-paragraph">
                 I believe that design is about more than just making things look
@@ -67,11 +68,9 @@ const about = () => {
                 enjoyable experiences for users.
               </p>
               <p className="font-medium text-paragraph">
-                Whether Im working on a website, or an illustration, I bring my
-                commitment to design excellence, user-centered thinking,
-                detailed art and beautiful illustration to every project and
-                piece i work on. I look forward to the opportunity to bring my
-                skills and passion to your next project.
+                Whether Im working on a website, I bring my commitment to design
+                excellence, user-centered thinking. I look forward to the
+                opportunity to bring my skills and passion to your next project.
               </p>
             </div>
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-primary bg-light p-8 xl=col-span-4 md:border-1 md:col-span-8 items-center">
@@ -114,6 +113,7 @@ const about = () => {
           <Skills />
           <Experience />
           <Education />
+          <Organization />
         </Layout>
       </main>
     </>
