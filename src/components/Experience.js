@@ -71,7 +71,7 @@ const Experience = () => {
             companyLink="https://www.smamalmujahidin.sch.id/"
             time="jun 2021 - aug 2021"
             address="Wonosari, D.I. Yogyakarta"
-            work="Slicing prototype to PHP, HTML and CSS using visual studio code, 
+            work="Slicing prototype to HTML and CSS using visual studio code, 
             Optimization the website for better user experience
             "
           />
